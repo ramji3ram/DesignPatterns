@@ -13,6 +13,13 @@
             hammer.Wield();
             hammer.Swing();
             hammer.Unwield();
+
+
+            IWeapon gun = new Gun(new GunEnchantment());
+            gun.Wield();
+            gun.Swing();
+            gun.Unwield();
+
         }
     }
 }
