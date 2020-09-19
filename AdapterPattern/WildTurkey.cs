@@ -15,7 +15,7 @@ namespace AdapterPattern
 
         public void Fly()
         {
-            Console.WriteLine("Flies 100 Metres");
+            Console.WriteLine("Flies 1100 Metres");
         }
     }
 }

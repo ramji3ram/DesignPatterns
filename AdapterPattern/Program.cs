@@ -7,7 +7,8 @@ namespace AdapterPattern
         private static void Main()
         {
             var turkey = new WildTurkey();
-            var adapter = new TurkeyAdapter(turkey);
+            var duck = new MallardDuck();
+            var adapter = new TurkeyAdapter(duck);
 
             Tester(adapter);
         }
